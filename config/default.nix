@@ -4,6 +4,7 @@
         ./languages
         ./navigation
         ./ui
+        ./utils
 
         ./mappings.nix
         ./options.nix

@@ -5,7 +5,6 @@
         ./lualine.nix
         ./noice.nix
         ./nvim-notify.nix
-        ./zenmode.nix
     ];
 
     colorschemes.tokyonight = {
@@ -16,6 +15,7 @@
     plugins = {
         dressing.enable = true;
         numbertoggle.enable = true;
+        nvim-colorizer.enable = true;
     };
 
     extraPlugins = with pkgs.vimPlugins; [  

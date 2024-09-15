@@ -87,9 +87,7 @@
             {
                 type = "button";
                 val = "󰈚  Recent Files";
-                on_press = {
-                    __raw = "function() require('telescope.builtin').oldfiles() end";
-                };
+                on_press.__raw = "function() require('telescope.builtin').oldfiles() end";
                 opts = {
                     keymap = [
                         "n"
@@ -114,9 +112,7 @@
             {
                 type = "button";
                 val = "󰈭  Find Word";
-                on_press = {
-                    __raw = "function() require('telescope.builtin').live_grep() end";
-                };
+                on_press.__raw = "function() require('telescope.builtin').live_grep() end";
                 opts = {
                     keymap = [
                         "n"
@@ -141,9 +137,7 @@
             {
                 type = "button";
                 val = "  Restore Session";
-                on_press = {
-                    __raw = "function() require('persistence').load() end";
-                };
+                on_press.__raw = "function() require('persistence').load() end";
                 opts = {
                     keymap = [
                         "n"
@@ -168,9 +162,7 @@
             {
                 type = "button";
                 val = "  Quit Neovim";
-                on_press = {
-                    __raw = "function() vim.cmd[[qa]] end";
-                };
+                on_press.__raw = "function() vim.cmd[[qa]] end";
                 opts = {
                     keymap = [
                         "n"
