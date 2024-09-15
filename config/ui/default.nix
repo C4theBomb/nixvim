@@ -5,6 +5,7 @@
         ./lualine.nix
         ./noice.nix
         ./nvim-notify.nix
+        ./zenmode.nix
     ];
 
     colorschemes.tokyonight = {
