@@ -1,17 +1,13 @@
-{ pkgs, ... }: {
+{
     imports = [
-        ./plugins
+        ./git
+        ./languages
+        ./navigation
+        ./ui
 
-		./autocmds.nix
-		./mappings.nix
+        ./mappings.nix
         ./options.nix
     ];
-
-    colorschemes.tokyonight = {
-		
-		enable = true;
-		settings.style = "night";
-	};
 
     clipboard.providers.wl-copy.enable = true;
 }

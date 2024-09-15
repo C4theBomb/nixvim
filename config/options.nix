@@ -15,7 +15,7 @@
 
         swapfile = false;
         backup = false;
-        undodir = builtins.getEnv("HOME") + "/.vim/undodir";
+        undodir = "/home/c4patino/.vim/undodir";
         undofile = true;
 
         hlsearch = false;
