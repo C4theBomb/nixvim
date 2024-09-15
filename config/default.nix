@@ -7,6 +7,11 @@
         ./options.nix
     ];
 
-    colorschemes.tokyonight.enable = true;
+    colorschemes.tokyonight = {
+		
+		enable = true;
+		settings.style = "night";
+	};
+
     clipboard.providers.wl-copy.enable = true;
 }

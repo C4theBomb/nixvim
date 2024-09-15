@@ -22,7 +22,7 @@
 
         filters = {
             custom = [ ".git" "__pycache__" ];
-            exclude = [ ".gitignore" ".gitattributes" ".gitmodules" ".github" ];
+            exclude = [ ".gitignore" ".gitattributes" ".gitmodules" ".github" "fugitive" ];
         };
 
         git = {

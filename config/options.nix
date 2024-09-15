@@ -27,5 +27,7 @@
 
         foldcolumn = "0";
         foldlevel = 99;
+
+		signcolumn = "yes";
     };
 }
