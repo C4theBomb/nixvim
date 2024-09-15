@@ -1,6 +1,7 @@
 {
     imports = [
         ./todo-comments.nix
+		./lazygit.nix
         ./undotree.nix
         ./toggleterm.nix
         ./zenmode.nix

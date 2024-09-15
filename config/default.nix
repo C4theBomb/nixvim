@@ -1,6 +1,5 @@
 {
     imports = [
-        ./git
         ./languages
         ./navigation
         ./ui
