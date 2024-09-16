@@ -1,6 +1,7 @@
 { pkgs, ... }: {
     imports = [
         ./alpha.nix
+		./fidget.nix
         ./indent-blankline.nix
         ./lualine.nix
         ./noice.nix

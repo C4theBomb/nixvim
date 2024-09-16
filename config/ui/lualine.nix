@@ -3,8 +3,17 @@
         enable = true;
 
         settings = {
-            always_divide_middle = true;
-            global_status = true;
+            options = {
+                globalstatus = true;
+                always_divide_middle = true;
+                theme = "auto";
+                ignore_focuse = [ "nvim-tree" ];
+
+                component_separators = {
+                    left = "|";
+                    right = "|";
+                };
+            };
 
             extensions = [ "fzf" ];
 
@@ -19,16 +28,6 @@
                 lualine_x = [ "filetype" ];
                 lualine_y = [ "location" ];
                 lualine_z = [ ''" " .. os.date("%R")'' ];
-            };
-
-            options = {
-                theme = "auto";
-                ignore_focuse = [ "nvim-tree" ];
-
-                component_separators = {
-                    left = "|";
-                    right = "|";
-                };
             };
         };
     };

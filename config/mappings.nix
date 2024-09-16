@@ -1,7 +1,7 @@
 {
-    keymaps = [
+	keymaps = [
         { 
-            mode = "n";
+			mode = "n";
             key = ";";
             action = ":";
             options.desc = "General Enter command mode";
@@ -16,9 +16,8 @@
             mode = "n";
             key = "<C-s>";
             action = "<cmd>w<CR>";
-            options.desc = "General File save";
+			options.desc = "General File save";
         }
-
         { 
             mode = "n";
             key = "<C-u>";
