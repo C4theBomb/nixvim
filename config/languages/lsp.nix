@@ -1,16 +1,34 @@
 {
     plugins = {
-		lsp-format.enable = true;
-        lsp = {
+		lsp = {
             enable = true;
             capabilities = "offsetEncoding = 'utf-16'";
             servers = {
                 clangd.enable = true;
+
                 gopls.enable = true;
+
                 java-language-server.enable = true;
+
                 lua-ls.enable = true;
+
                 nil-ls.enable = true;
-                pylsp.enable = true;
+
+				pylsp = {
+					enable = true;
+					settings.configurationSources = "pycodestyle";
+					settings = {
+						plugins = {
+							pyflakes.enabled = true;
+							mccabe.enabled = true;
+							pycodestyle.enabled = true;
+							pydocstyle.enabled = true;
+							yapf.enabled = true;
+						};
+					};
+
+				};
+
                 sqls.enable = true;
             };
 
