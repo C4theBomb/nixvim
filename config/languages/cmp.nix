@@ -5,8 +5,6 @@
             autoEnableSources = true;
 
             settings = {
-                experimental.ghost_text = true;
-
                 sources = [
                     { name = "copilot"; }
                     { name = "nvim_lsp"; }
