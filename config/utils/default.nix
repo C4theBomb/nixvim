@@ -4,6 +4,7 @@
 		./lazygit.nix
         ./undotree.nix
         ./toggleterm.nix
+		./vimtex.nix
         ./zenmode.nix
     ];
 
