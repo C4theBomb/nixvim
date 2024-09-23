@@ -1,6 +1,6 @@
 {
 	keymaps = [
-        { 
+		{ 
 			mode = "n";
             key = ";";
             action = ":";
@@ -54,20 +54,20 @@
             mode = "v";
             key = "J";
             action = ":m '>+1<CR>gv=gv";
-            options.desc = "Editing Move line down";
+			options = { silent = true; desc = "Editing Move line down"; };
         }
         { 
             mode = "v";
-            key = "K";
+			key = "K";
             action = ":m '<-2<CR>gv=gv";
-            options.desc = "Editing Move line down";
+			options = { silent = true; desc = "Editing Move line up"; };
         }
 
         {
             mode = ["n" "v"];
             key = "<leader>y";
             action = "\"+y";
-            options.desc = "Editing Copy to system clipboard";
+            options.desc = "Editing copy to system clipboard";
         }
         {
             mode = "v";
