@@ -17,6 +17,7 @@
         dressing.enable = true;
         numbertoggle.enable = true;
         nvim-colorizer.enable = true;
+		gitsigns.enable = true;
     };
 
     extraPlugins = with pkgs.vimPlugins; [  
