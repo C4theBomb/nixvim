@@ -8,19 +8,19 @@
         ./nvim-notify.nix
     ];
 
-    colorschemes.tokyonight = {
+	colorschemes.tokyonight = {
 		enable = true;
 		settings.style = "night";
 	};
 
-    plugins = {
-        dressing.enable = true;
-        numbertoggle.enable = true;
-        nvim-colorizer.enable = true;
+	plugins = {
+		dressing.enable = true;
+		numbertoggle.enable = true;
+		nvim-colorizer.enable = true;
 		gitsigns.enable = true;
-    };
+	};
 
-    extraPlugins = with pkgs.vimPlugins; [  
-        nui-nvim
-    ];
+	extraPlugins = with pkgs.vimPlugins; [  
+		nui-nvim
+	];
 }
