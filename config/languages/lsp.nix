@@ -29,6 +29,8 @@
 
 				};
 
+				rust_analyzer.enable = true;
+
                 sqls.enable = true;
             };
 
