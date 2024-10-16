@@ -29,7 +29,7 @@
 
 				};
 
-				rust_analyzer.enable = true;
+				rust-analyzer.enable = true;
 
                 sqls.enable = true;
             };
