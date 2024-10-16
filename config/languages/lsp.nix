@@ -29,12 +29,12 @@
 
 				};
 
-				rust-analyzer.enable = true;
-
                 sqls.enable = true;
             };
 
         };
+
+		rust-tools.enable = true;
 
         typescript-tools.enable = true;
     };
