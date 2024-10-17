@@ -182,30 +182,30 @@
             dap-virtual-text.enable = true;
         };
 
-		adapters = {
-			executables = {
-				gdb = {
-					command = "gdb";
-					args = [ "--interpreter=dap" "--eval-command" "set print pretty on" ];
-				};
-			};
-			delve = { }; # go
-			node2 = {}; # js
-			debugpy = {}; # python
-			java = {}; # java
-		};
-
-        configurations = {
-            c = [ 
-				{
-					name = "Launch";
-					type = "gdb";
-					request = "launch";
-				}
-			];
-
-            cpp = [ ];
-			rust = [ ];
-        };
+		# adapters = {
+		# 	executables = {
+		# 		gdb = {
+		# 			command = "gdb";
+		# 			args = [ "--interpreter=dap" "--eval-command" "set print pretty on" ];
+		# 		};
+		# 	};
+		# 	delve = { }; # go
+		# 	node2 = {}; # js
+		# 	debugpy = {}; # python
+		# 	java = {}; # java
+		# };
+		#
+		#       configurations = {
+		#           c = [ 
+		# 		{
+		# 			name = "Launch";
+		# 			type = "gdb";
+		# 			request = "launch";
+		# 		}
+		# 	];
+		#
+		#           cpp = [ ];
+		# 	rust = [ ];
+		#       };
     };
 }
