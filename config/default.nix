@@ -1,14 +1,14 @@
 {
-    imports = [
-        ./languages
-        ./navigation
-        ./ui
-        ./utils
+  imports = [
+    ./languages
+    ./navigation
+    ./ui
+    ./utils
 
-		./autocmds.nix
-        ./mappings.nix
-        ./options.nix
-    ];
+    ./autocmds.nix
+    ./mappings.nix
+    ./options.nix
+  ];
 
-    clipboard.providers.wl-copy.enable = true;
+  clipboard.providers.wl-copy.enable = true;
 }

@@ -1,33 +1,33 @@
 {
-    globals = {
-        mapleader = " ";
-        maplocalleader = " ";
-    };
+  globals = {
+    mapleader = " ";
+    maplocalleader = " ";
+  };
 
-    opts = {
-        nu = true;
-        relativenumber = true;
+  opts = {
+    nu = true;
+    relativenumber = true;
 
-        tabstop = 4;
-        shiftwidth = 4;
+    tabstop = 4;
+    shiftwidth = 4;
 
-        wrap = false;
+    wrap = false;
 
-        swapfile = false;
-        backup = false;
-        undodir = "/home/c4patino/.vim/undodir";
-        undofile = true;
+    swapfile = false;
+    backup = false;
+    undodir = "/home/c4patino/.vim/undodir";
+    undofile = true;
 
-        hlsearch = false;
-        incsearch = true;
+    hlsearch = false;
+    incsearch = true;
 
-        termguicolors = true;
+    termguicolors = true;
 
-        scrolloff = 8;
+    scrolloff = 8;
 
-        foldcolumn = "0";
-        foldlevel = 99;
+    foldcolumn = "0";
+    foldlevel = 99;
 
-		signcolumn = "yes";
-    };
+    signcolumn = "yes";
+  };
 }

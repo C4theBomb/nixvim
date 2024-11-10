@@ -1,23 +1,23 @@
 {
-    plugins.harpoon = {
-        enable = true;
-        enableTelescope = true;
+  plugins.harpoon = {
+    enable = true;
+    enableTelescope = true;
 
-        saveOnToggle = true;
+    saveOnToggle = true;
 
-		menu.width = 100;
+    menu.width = 100;
 
-        keymapsSilent = true;
+    keymapsSilent = true;
 
-        keymaps = {
-            addFile = "<leader>a";
-            toggleQuickMenu = "<C-e>";
-            navFile = {
-                "1" = "<C-j>";
-                "2" = "<C-k>";
-                "3" = "<C-l>";
-                "4" = "<C-;>";
-            };
-        };
+    keymaps = {
+      addFile = "<leader>a";
+      toggleQuickMenu = "<C-e>";
+      navFile = {
+        "1" = "<C-j>";
+        "2" = "<C-k>";
+        "3" = "<C-l>";
+        "4" = "<C-;>";
+      };
     };
+  };
 }

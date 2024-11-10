@@ -1,65 +1,63 @@
 {
-    plugins = {
-		lsp = {
-            enable = true;
-            capabilities = "offsetEncoding = 'utf-16'";
-            servers = {
-                clangd.enable = true;
+  plugins = {
+    lsp = {
+      enable = true;
+      capabilities = "offsetEncoding = 'utf-16'";
+      servers = {
+        clangd.enable = true;
 
-                gopls.enable = true;
+        gopls.enable = true;
 
-                java-language-server.enable = true;
+        java-language-server.enable = true;
 
-                lua-ls.enable = true;
+        lua-ls.enable = true;
 
-                nil-ls.enable = true;
+        nil-ls.enable = true;
 
-				pylsp = {
-					enable = true;
-					settings.configurationSources = "pycodestyle";
-					settings = {
-						plugins = {
-							pyflakes.enabled = true;
-							mccabe.enabled = true;
-							pycodestyle.enabled = true;
-							pydocstyle.enabled = true;
-							yapf.enabled = true;
-						};
-					};
-
-				};
-
-                sqls.enable = true;
+        pylsp = {
+          enable = true;
+          settings.configurationSources = "pycodestyle";
+          settings = {
+            plugins = {
+              pyflakes.enabled = true;
+              mccabe.enabled = true;
+              pycodestyle.enabled = true;
+              pydocstyle.enabled = true;
+              yapf.enabled = true;
             };
-
+          };
         };
 
-		rust-tools.enable = true;
-
-        typescript-tools.enable = true;
+        sqls.enable = true;
+      };
     };
 
-    extraConfigLua = ''
-        local _border = "rounded"
+    rust-tools.enable = true;
 
-        vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(
-            vim.lsp.handlers.hover, {
-                border = _border
-            }
-        )
+    typescript-tools.enable = true;
+  };
 
-        vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(
-            vim.lsp.handlers.signature_help, {
-                border = _border
-            }
-        )
+  extraConfigLua = ''
+    local _border = "rounded"
 
-        vim.diagnostic.config {
-            float={border=_border}
-        };
-
-        require('lspconfig.ui.windows').default_options = {
+    vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(
+        vim.lsp.handlers.hover, {
             border = _border
         }
-    '';
+    )
+
+    vim.lsp.handlers["textDocument/signatureHelp"] = vim.lsp.with(
+        vim.lsp.handlers.signature_help, {
+            border = _border
+        }
+    )
+
+    vim.diagnostic.config {
+        float={border=_border}
+    };
+
+    require('lspconfig.ui.windows').default_options = {
+        border = _border
+    }
+  '';
 }

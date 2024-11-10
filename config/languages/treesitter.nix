@@ -1,9 +1,9 @@
 {
-    plugins.treesitter = {
-        enable = true;
-        folding = true;
-		settings.highlight = {
-			enable = true;
-		};
+  plugins.treesitter = {
+    enable = true;
+    folding = true;
+    settings.highlight = {
+      enable = true;
     };
+  };
 }

@@ -1,14 +1,14 @@
 {
-    plugins.toggleterm = {
-        enable = true;
+  plugins.toggleterm = {
+    enable = true;
 
-        settings = {
-            open_mapping = "[[<A-i>]]";
+    settings = {
+      open_mapping = "[[<A-i>]]";
 
-            direction = "float";
+      direction = "float";
 
-            float_opts.border = "curved";
-            winbar.enabled = true;
-        };
+      float_opts.border = "curved";
+      winbar.enabled = true;
     };
+  };
 }

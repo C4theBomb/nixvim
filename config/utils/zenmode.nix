@@ -1,14 +1,14 @@
 {
-    keymaps = [
-        { 
-            mode = "n";
-            key = "<leader>zz";
-            action = "<cmd>ZenMode<cr>";
-        }
-    ];
+  keymaps = [
+    {
+      mode = "n";
+      key = "<leader>zz";
+      action = "<cmd>ZenMode<cr>";
+    }
+  ];
 
-    plugins.zen-mode = {
-        enable = true;
-        settings.window.width = 150;
-    };
+  plugins.zen-mode = {
+    enable = true;
+    settings.window.width = 150;
+  };
 }
