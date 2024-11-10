@@ -7,7 +7,7 @@
     {
       event = ["FileType"];
       pattern = ["*.nix"];
-      callback.__raw = ''vim.opt_local.tabstop = 2; vim.opt_local.shiftwidth = 2; vim.opt_local.expandtab = true;'';
+      callback.__raw = ''function() vim.opt_local.tabstop = 2; vim.opt_local.shiftwidth = 2; vim.opt_local.expandtab = true; end'';
     }
   ];
 }
