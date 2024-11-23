@@ -30,10 +30,10 @@
       };
 
       formatters_by_ft = {
-        javascript = [[ "prettier" "prettierd" ]];
-        typescript = [[ "prettier" "prettierd" ]];
-        lua = [[ "stylua" ]];
-        nix = [[ "alejandra" ]];
+        javascript = [["prettier" "prettierd"]];
+        typescript = [["prettier" "prettierd"]];
+        lua = [["stylua"]];
+        nix = [["alejandra"]];
       };
     };
   };
