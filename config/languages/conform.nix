@@ -31,7 +31,9 @@
 
       formatters_by_ft = {
         javascript = [["prettier" "prettierd"]];
+        javascriptreact = [["prettier" "prettierd"]];
         typescript = [["prettier" "prettierd"]];
+        typescriptreact = [["prettier" "prettierd"]];
         lua = [["stylua"]];
         nix = [["alejandra"]];
       };
