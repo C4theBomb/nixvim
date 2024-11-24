@@ -30,12 +30,32 @@
       };
 
       formatters_by_ft = {
-        javascript = [["prettier" "prettierd"]];
-        javascriptreact = [["prettier" "prettierd"]];
-        typescript = [["prettier" "prettierd"]];
-        typescriptreact = [["prettier" "prettierd"]];
-        lua = [["stylua"]];
-        nix = [["alejandra"]];
+        javascript = {
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
+          stop_after_first = true;
+        };
+        javascriptreact = {
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
+          stop_after_first = true;
+        };
+        typescript = {
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
+          stop_after_first = true;
+        };
+        typescriptreact = {
+          __unkeyed-1 = "prettierd";
+          __unkeyed-2 = "prettier";
+          stop_after_first = true;
+        };
+        lua = {
+          __unkeyed-1 = "stylua";
+        };
+        nix = {
+          __unkeyed-1 = "alejandra";
+        };
       };
     };
   };
