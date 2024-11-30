@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{
   keymaps = [
     {
       mode = "n";
