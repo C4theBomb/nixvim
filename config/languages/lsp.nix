@@ -29,6 +29,8 @@
         };
 
         sqls.enable = true;
+
+        zls.enable = true;
       };
     };
 
