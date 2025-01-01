@@ -16,7 +16,7 @@
     fps = 60;
     render = "default";
     timeout = 500;
-    topDown = true;
+    topDown = false;
   };
 
   extraConfigLua = ''
