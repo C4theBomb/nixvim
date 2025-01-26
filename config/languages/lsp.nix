@@ -6,6 +6,8 @@
       servers = {
         clangd.enable = true;
 
+        csharp-ls.enable = true;
+
         gopls.enable = true;
 
         java-language-server.enable = true;
