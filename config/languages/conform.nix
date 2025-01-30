@@ -56,6 +56,9 @@
         nix = {
           __unkeyed-1 = "alejandra";
         };
+        racket = {
+          __unkeyed-1 = "raco fmt";
+        };
       };
     };
   };
