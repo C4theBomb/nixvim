@@ -2,7 +2,6 @@
   imports = [
     ./cmp.nix
     ./conform.nix
-    ./copilot.nix
     ./dap.nix
     ./lsp.nix
     ./lspkind.nix
