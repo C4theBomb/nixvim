@@ -57,7 +57,14 @@
           __unkeyed-1 = "alejandra";
         };
         racket = {
-          __unkeyed-1 = "raco fmt";
+          __unkeyed-1 = "raco_fmt";
+        };
+      };
+
+      formatters = {
+        raco_fmt = {
+          command = "raco";
+          args = ["fmt"];
         };
       };
     };
